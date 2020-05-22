@@ -1,0 +1,105 @@
+﻿*,td,li,ul,body {
+    margin:0;
+    padding:0;
+}
+td,tb,table
+{
+    border:0px;
+}
+#box
+{
+    width:1000px;
+    margin:0 auto;
+}
+
+#header{
+    width:1000px;
+    height:170px;
+    background-image:url(../images/u=3149762757,3261528568&fm=27&gp=0.jpg);
+}
+
+#main{
+    width:1000px;
+    
+}
+
+#left {
+    float: left;
+    width: 490px;
+    height:300px;
+}
+
+#right {
+    float: right;
+    width: 500px;
+}
+
+#footer{
+    width:1000px;
+    text-align:center;
+}
+
+.splitDiv
+{
+    height:10px;
+    clear:both;
+}
+
+.line{
+    width:1000px;
+    height:1px;
+    background:#000;
+    margin:10px 0;
+}
+
+/*下面是登录界面的布局*/
+#userLogin
+{
+    width:150px;
+    height:90px;
+    position:absolute;
+    left:51%;
+    top:50%;
+    border:1px solid #ccc;
+    margin-left:-75px;
+    margin-top:-45px;
+}
+
+/*下面是查看新闻内容页面的布局*/
+#newsTitle {
+    width: 1000px;
+    text-align: center;
+    font-size: 18pt;
+}
+
+#newsTitle {
+    width: 1000px;
+    font-size: 12pt;
+}
+
+#newsInfo{
+    width:1000px;
+    font-size:12pt;
+    text-align:center;
+    margin-bottom:10px;
+}
+
+/*下面是管理页面的布局*/
+#adminHeader{
+    line-height:25px;
+    width:1000px;
+    height:25px;
+    margin-top:5px;
+    border:1px solid #ccc;
+}
+
+#adminMenu {
+    line-height: 25px;
+    width: 1000px;
+    height: 25px;
+    border: 1px solid #ccc;
+}
+
+#adminContent {
+    width: 1000px;
+}
