@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/air.jpg</file>
+        <file>icons/black.png</file>
+        <file>icons/fang.gif</file>
+        <file>icons/h.gif</file>
+        <file>icons/light.jpg</file>
+        <file>icons/logo.jpg</file>
+        <file>icons/newusedwarninglight.gif</file>
+        <file>icons/newwarninglight.gif</file>
+        <file>icons/quit.gif</file>
+        <file>icons/u0.jpg</file>
+        <file>icons/u1.jpg</file>
+        <file>icons/u2.jpg</file>
+        <file>icons/warning.jpg</file>
+        <file>icons/newlogo.gif</file>
+        <file>icons/closebtn.png</file>
+        <file>icons/open.png</file>
+    </qresource>
+</RCC>
