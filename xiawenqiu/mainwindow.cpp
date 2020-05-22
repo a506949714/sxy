@@ -71,7 +71,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::readSlot(const QByteArray &data)
 {
-    ui->textBrowser->append(data);
+
     QJsonDocument jsonDoc = QJsonDocument::fromJson(data);
     QJsonObject json = jsonDoc.object();
     light = json.value("light").toDouble();
